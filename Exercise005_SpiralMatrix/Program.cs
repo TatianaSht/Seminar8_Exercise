@@ -91,7 +91,6 @@ void PrintMatrix(int[,] matrixForPrint, int num1, int num2)
                     Console.Write(matrixForPrint[i, j] + "\t");
                 }
                 else Console.Write($"0{matrixForPrint[i, j]}" + "\t");
-                // Console.Write(matrixForPrint[i, j] + "\t");
             }
             Console.WriteLine();
         }
